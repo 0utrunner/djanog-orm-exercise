@@ -1,6 +1,7 @@
 from django.db import models
-from datetime import datetime 
+from datetime import datetime
 from django.utils import timezone
+
 
 class Product(models.Model):
     manufacturer = models.CharField(max_length=200, null=True)
